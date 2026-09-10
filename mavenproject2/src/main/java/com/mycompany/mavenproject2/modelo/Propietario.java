@@ -25,15 +25,38 @@ public class Propietario {
         this.phone = phone;
         this.listamascota = new ArrayList<>();
     }
+
+    public String getNamedueño() {
+        return namedueño;
+    }
+
+    public void setNamedueño(String namedueño) {
+        this.namedueño = namedueño;
+    }
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
         
-    
-  
+        public void agregarmascota(Mascota m){
+            if (m!=null){
+                this.listamascota.add(m);
+            }
+        }
 
- 
-
-   
-    
-    
-
-    
+    public List<Mascota> getListamascota() {
+        return listamascota;
+    }
 }
