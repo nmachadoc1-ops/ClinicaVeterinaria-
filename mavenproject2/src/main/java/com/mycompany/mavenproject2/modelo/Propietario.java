@@ -50,13 +50,14 @@ public class Propietario {
         this.phone = phone;
     }
         
-        public void agregarmascota(Mascota m){
+        public void agregarMascota(Mascota m){
             if (m!=null){
                 this.listamascota.add(m);
             }
         }
 
-    public List<Mascota> getListamascota() {
+    public List<Mascota> getListaMascota() {
         return listamascota;
     }
+
 }

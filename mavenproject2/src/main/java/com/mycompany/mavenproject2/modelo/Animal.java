@@ -71,7 +71,7 @@ public class Animal {
     }
    
     
-    public String describirmascota(String nombre, String especie, int edad){
+    public String   DescribirMascota(){
         
          return "Nombre: " + nombre + ", Edad: " + edad + ", Especie: " + especie;
     }
